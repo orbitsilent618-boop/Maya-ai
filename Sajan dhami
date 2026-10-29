@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maya AI Assistant</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 24px;
+      background: #101020;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .card {
+      max-width: 420px;
+      margin: 40px auto;
+      padding: 24px;
+      background: #20203a;
+      border-radius: 20px;
+    }
+    h1 { color: #a78bfa; }
+    input, button {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 14px;
+      margin-top: 12px;
+      border: 0;
+      border-radius: 10px;
+      font-size: 16px;
+    }
+    button {
+      background: #8b5cf6;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>✨ Maya AI</h1>
+    <p>नमस्ते! म तपाईंको AI सहायक हुँ।</p>
+    <p>छिट्टै हामी नेपालीमा AI Chat थप्नेछौँ।</p>
+    <input placeholder="यहाँ आफ्नो प्रश्न लेख्नुहोस्">
+    <button>🎤 बोल्नुहोस्</button>
+  </div>
+</body>
+</html>
